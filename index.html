@@ -18,7 +18,7 @@
                     colors: {
                         yellow: "#FECC02",
                         black: "#131313",
-                        gray: "#4E4E4E",
+                       
                     },
                     fontFamily: {
                         bebas: ['Bebas Neue', "sans-serif"],
@@ -44,20 +44,79 @@
     </nav>
 
     <!-- main setion  -->
-    <section class="h-screen bg-slate-400 pt-20 bg-[url('./images/banner.jpg')] bg-cover">
+    <section class="h-screen  pt-20 bg-[url('./images/banner.jpg')] bg-cover">
         <div class="h-full w-full max-w-7xl mx-auto flex items-center">
-            <div class="font-bebas">
+            <div class="font-bebas px-5">
                 <h3 class="text-2xl  text-white">Movie production studio</h3>
                 <h1 class="text-7xl  text-white">Films MAde to</h1>
                 <h1 class="text-7xl  text-yellow">Perfection</h1>
                 <p class="text-white font-montserrat mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, <br>
                     luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
-                    <button class="font-babes border-2 text-white p-2 text-lg">Discover More</button>
+                    <button class="font-babes border-2 border-white text-white p-2 text-lg hover:bg-yellow hover:border-yellow hover:text-black transition-all">Discover More</button>
             </div>
         </div>
+    </section>
 
+    <!-- about us  -->
+    <section class="py-40">
+        <div class="border-2 border-black w-full max-w-7xl mx-auto p-5">
+            <!-- image  -->
+            <div class="lg:flex ">
+                <div class="w-full lg:w-1/2 bg-emerald-600 h-[500px] bg-[url('./images/camera-man.jpg')] bg-cover bg-center"></div>
+                <div class="w-full lg:w-1/2 p-5 font-bebas">
+                    <h2>ABOUT US</h2>
+                    <h1 class="text-6xl">FIlming Experience</h1>
+                    <h1 class="text-6xl">Just Got better</h1>
+                    <P class="mb-10">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit necessitatibus delectus sunt consequatur, et adipisci magnam, fugiat, officia consequuntur temporibus dolorem reprehenderit. Ex itaque adipisci et exercitationem deleniti eligendi, repellat quo quis consectetur alias rem tempora laborum. Nostrum, quis asperiores fugit, neque aut cumque aliquam, temporibus dignissimos similique dolore pariatur!</P>
+                    <button class="font-babes border-2 p-2 text-lg hover:bg-yellow hover:border-yellow hover:text-black transition-all">Discover More</button>
+                </div>
 
+            </div>
+            <!-- our mission  -->
+          <div class="grid md:grid-cols-3 pt-20 gap-7">
+            <div class="font-bebas border-t-4">
+                <h1 class="text-4xl mt-4">OUR VISIOn</h1>
+                <p class="font-montserrat">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+            </div>
+            <div class="font-bebas border-t-4">
+                <h1 class="text-4xl mt-4">OUR VISIOn</h1>
+                <p class="font-montserrat">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+            </div>
+            <div class="font-bebas border-t-4">
+                <h1 class="text-4xl mt-4">OUR VISIOn</h1>
+                <p class="font-montserrat">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+            </div>
+           
+           
+          </div>
+        </div>
+    </section>
+
+    <!-- movice collaction  -->
+    <section class="bg-gray-600 py-20  ">
+        <div class="w-full max-w-7xl mx-auto font-bebas p-2">
+                <h2 class="text-lg">OUR MOVIES</h2>
+            <div class="flex justify-between  text-white items-cente">
+                <h1 class="text-6xl">Movie collection</h1>
+                <button class="font-babes border-2 border-white text-white p-2 text-lg hover:bg-yellow hover:border-yellow hover:text-black transition-all">Discover More</button>
+            </div>
+       
+        <div class="grid md:grid-cols-4 mt-7  gap-16">
+            <div class="border-2">
+                <img class="p-5" src="images/fractured.jpg" alt="">
+            </div>
+            <div class="border-2">
+                <img class="p-5" src="images/inception.jpg" alt="">
+            </div>
+            <div class="border-2">
+                <img class="p-5" src="images/interstellar.jpg" alt="">
+            </div>
+            <div class="border-2">
+                <img class="p-5" src="images/tenet.jpg" alt="">
+            </div>
+        
+        </div>
+    </div>
     </section>
 </body>
-
 </html>
